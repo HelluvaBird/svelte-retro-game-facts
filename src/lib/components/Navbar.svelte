@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { page } from '$app/stores';
+
 	const links = [
 		{
 			title: 'NES',
@@ -61,7 +63,7 @@
 							<li>
 								<a
 									href={link.href}
-									class="inline-block py-1 border-b border-transparent hover:border-sky-400"
+									class={`px-3 py-2 text-sm font-medium rounded-md ${link.href === $page.route.id ? 'bg-zinc-900 text-zinc-50' : 'text-zinc-200 hover:bg-zinc-700 hover:text-zinc-50'}`}
 									>{link.title}</a
 								>
 							</li>
