@@ -5,7 +5,7 @@
 <div class="py-32">
 	<div class="grid place-items-center">
 		<div>
-			<h2 class="text-lg text-sky-400">{$page.status}</h2>
+			<p class="text-lg text-sky-400">{$page.status}</p>
 			<p>Nothing here but us chickens</p>
 			<div class="flex gap-2 my-16">
 				<img
