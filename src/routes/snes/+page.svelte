@@ -1,19 +1,18 @@
 <script lang="ts">
 	const information = {
-		name: 'Nintendo Entertainment System',
-		released: '1983',
-		generation: 'Third',
-		initialPrice: 179,
-		unitsSold: 61.91,
+		name: 'Super Nintendo Entertainment System',
+		released: '1990',
+		generation: 'Fourth',
+		initialPrice: 199,
+		unitsSold: 49.1,
 		description:
-			'The Nintendo Entertainment System (NES) is an 8-bit third-generation \
-			 home video game console produced by Nintendo. It was first released \
-			 in Japan in 1983 as the Family Computer (FC) commonly referred to as Famicom. \
-			 It would be redesigned as the NES, and released in American markets on October 18, 1985.\
-			 The NES is one of the best-selling consoles of its time and helped revitalize the US gaming \
-			 industry following the video game crash of 1983. The NES features several groundbreaking \
-			 games, such as Super Mario Brothers, Donkey Kong, The Legend of Zelda, and Metroid. \
-			 Many have claimed the NES to be the greatest video game console of all time.'
+			'The Super Nintendo Entertainment System is a 16-bit home video game console \
+			 developed by Nintendo that was released in 1990. The console introduced advanced \
+			 graphics and sound capabilities compared with other systems at the time. It was \
+			 designed to accommodate the ongoing development of a variety of enhancement chips \
+			 integrated into game cartridges to be more competitive into the next generation. \
+			 The SNES continues to be popular today among collectors, retaining its title as the \
+			 best-selling console of the 16-bit generation.'
 	};
 </script>
 
@@ -22,7 +21,7 @@
 		<p class="max-w-3xl">{information.description}</p>
 	</div>
 	<div class="col-span-12 lg:col-span-6">
-		<img src="images/NES.png" alt="Nintendo Entertainment System" />
+		<img src="images/SNES.png" alt="Super Nintendo Entertainment System" />
 	</div>
 	<div class="col-span-12">
 		<dl class="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12 sm:gap-y-16">
