@@ -15,7 +15,7 @@
 			href: '/megadrive'
 		},
 		{
-			title: 'GB/GBC',
+			title: 'GB',
 			href: '/gameboy'
 		},
 		{

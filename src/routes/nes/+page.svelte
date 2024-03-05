@@ -21,8 +21,8 @@
 	<div class="col-span-12 lg:col-span-6">
 		<p class="max-w-3xl">{information.description}</p>
 	</div>
-	<div class="col-span-12 lg:col-span-6">
-		<img src="images/NES.png" alt="Nintendo Entertainment System" />
+	<div class="col-span-12 lg:col-span-6 max-h-72 lg:max-h-none">
+		<img src="images/NES.png" alt="Nintendo Entertainment System" class="h-full lg:h-auto" />
 	</div>
 	<div class="col-span-12">
 		<dl class="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12 sm:gap-y-16">

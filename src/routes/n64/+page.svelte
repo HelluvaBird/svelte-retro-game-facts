@@ -1,18 +1,17 @@
 <script lang="ts">
 	const information = {
-		name: 'Super Nintendo Entertainment System',
-		released: '1990',
-		generation: 'Fourth',
-		initialPrice: 199,
-		unitsSold: 49.1,
+		name: 'Nintendo 64',
+		released: '1996',
+		generation: 'Fifth',
+		initialPrice: 199.99,
+		unitsSold: 32.93,
 		description:
-			'The Super Nintendo Entertainment System is a 16-bit home video game console \
-			 developed by Nintendo that was released in 1990. The console introduced advanced \
-			 graphics and sound capabilities compared with other systems at the time. It was \
-			 designed to accommodate the ongoing development of a variety of enhancement chips \
-			 integrated into game cartridges to be more competitive into the next generation. \
-			 The SNES continues to be popular today among collectors, retaining its title as the \
-			 best-selling console of the 16-bit generation.'
+			"The Nintendo 64 is a fifth generation home video game console developed by Nintendo. \
+		The Nintendo 64 was named after its 64-bit CPU. This CPU aided in the console's 3D capabilities. \
+		The console is one of the most widely recognized video game consoles thanks to it's controllers. Due \
+		to the competition using CD-ROM based games many third party developers did not develop as many \
+		games for the Nintendo 64. Despite this the Nintendo 64 has some of the greatest games ever made \
+		including Super Mario 64, The Legend of Zelda: Ocarina of Time, and GoldenEye 007."
 	};
 </script>
 
@@ -21,7 +20,7 @@
 		<p class="max-w-3xl">{information.description}</p>
 	</div>
 	<div class="col-span-12 lg:col-span-6 max-h-72 lg:max-h-none">
-		<img src="images/SNES.png" alt="Super Nintendo Entertainment System" class="h-full lg:h-auto" />
+		<img src="images/N64.png" alt="Super Nintendo Entertainment System" class="h-full lg:h-auto" />
 	</div>
 	<div class="col-span-12">
 		<dl class="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12 sm:gap-y-16">

@@ -1,18 +1,18 @@
 <script lang="ts">
 	const information = {
-		name: 'Super Nintendo Entertainment System',
-		released: '1990',
+		name: 'Nintendo Game Boy',
+		released: '1989',
 		generation: 'Fourth',
-		initialPrice: 199,
-		unitsSold: 49.1,
+		initialPrice: 89.99,
+		unitsSold: 118.69,
 		description:
-			'The Super Nintendo Entertainment System is a 16-bit home video game console \
-			 developed by Nintendo that was released in 1990. The console introduced advanced \
-			 graphics and sound capabilities compared with other systems at the time. It was \
-			 designed to accommodate the ongoing development of a variety of enhancement chips \
-			 integrated into game cartridges to be more competitive into the next generation. \
-			 The SNES continues to be popular today among collectors, retaining its title as the \
-			 best-selling console of the 16-bit generation.'
+			"The Game Boy is an 8-bit fourth generation handheld game console developed by \
+			Nintendo. Upon the Game Boy's release it was deemed inferior to that of it's \
+			fourth generation competition. Despite this the Game Boy outsold the competition \
+			and remains one of the best-selling video game consoles of all-time. The Game Boy \
+			is seen by many as a cultural icon and one of the most recognizable devices from \
+			the 1990's. The Game Boy would introduce a generation to the popular game Tetris as \
+			well as the Pokemon franchise years later."
 	};
 </script>
 
@@ -20,8 +20,8 @@
 	<div class="col-span-12 lg:col-span-6">
 		<p class="max-w-3xl">{information.description}</p>
 	</div>
-	<div class="col-span-12 lg:col-span-6 max-h-72 lg:max-h-none">
-		<img src="images/SNES.png" alt="Super Nintendo Entertainment System" class="h-full lg:h-auto" />
+	<div class="col-span-12 lg:col-span-6 justify-self-center max-h-72">
+		<img src="images/GB.png" alt="Nintendo Game Boy" class="h-full" />
 	</div>
 	<div class="col-span-12">
 		<dl class="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12 sm:gap-y-16">

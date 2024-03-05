@@ -1,18 +1,18 @@
 <script lang="ts">
 	const information = {
-		name: 'Super Nintendo Entertainment System',
-		released: '1990',
+		name: 'Sega Mega Drive ',
+		released: '1988',
 		generation: 'Fourth',
-		initialPrice: 199,
-		unitsSold: 49.1,
+		initialPrice: 189,
+		unitsSold: 30.75,
 		description:
-			'The Super Nintendo Entertainment System is a 16-bit home video game console \
-			 developed by Nintendo that was released in 1990. The console introduced advanced \
-			 graphics and sound capabilities compared with other systems at the time. It was \
-			 designed to accommodate the ongoing development of a variety of enhancement chips \
-			 integrated into game cartridges to be more competitive into the next generation. \
-			 The SNES continues to be popular today among collectors, retaining its title as the \
-			 best-selling console of the 16-bit generation.'
+			"The Sega Mega Drive also know as the Sega Genesis in North America is a 16-bit \
+			fourth generation home console developed by Sega. It was Sega's third console \
+			and the successor to the Master System. Contributing to the Mega Drive's success was \
+			it's library of arcade game ports, popular sports franchises, and the popularity of \
+			Sonic the Hedgehog. It was marketed as the cool console for adolescents. Many games contained \
+			mature themes and violence which drew quite a bit of legal scrutiny at the time. None the less \
+			the Sega Mega Drive remains a popular retro game console to this day."
 	};
 </script>
 
@@ -21,7 +21,7 @@
 		<p class="max-w-3xl">{information.description}</p>
 	</div>
 	<div class="col-span-12 lg:col-span-6 max-h-72 lg:max-h-none">
-		<img src="images/SNES.png" alt="Super Nintendo Entertainment System" class="h-full lg:h-auto" />
+		<img src="images/MD.png" alt="Sega Mega Drive" class="h-full lg:h-auto" />
 	</div>
 	<div class="col-span-12">
 		<dl class="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12 sm:gap-y-16">

@@ -12,7 +12,7 @@
 			title = 'Super Nintendo Entertainment System';
 			break;
 		case '/megadrive':
-			title = 'Sega Megadrive';
+			title = 'Sega Mega Drive';
 			break;
 		case '/gameboy':
 			title = 'Nintendo Game Boy';
