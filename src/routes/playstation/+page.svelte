@@ -1,18 +1,17 @@
 <script lang="ts">
 	const information = {
-		name: 'Nintendo GameCube',
-		released: '2001',
-		generation: 'Sixth',
-		initialPrice: 199,
-		unitsSold: 21.74,
+		name: 'Sony Playstation',
+		released: '1994',
+		generation: 'Fifth',
+		initialPrice: 299,
+		unitsSold: 102.49,
 		description:
-			"The GameCube is a sixth generation home video game console developed by Nintendo. The \
-			GameCube was met with mixed reception. It was praised for it's controller and games \
-			library, but was criticized for its lack of multimedia features like the ability to \
-			play CD and DVD media. This led to fewer units being sold than antisipated. Certain games \
-			like Final Fantasy Crystal Chronicles and The Legend of Zelda: Four Swords Adventures \
-			can use the Game Boy Advance handheld as a secondary screen or controller when connected \
-			via a link cable."
+			'The PlayStation is a fifth generation 32-bit home video game console developed \
+			 by Sony Computer Entertainment. The Playstation became the first computer \
+			 entertainment platform to ship over 100 million units. It achieved this feat \
+			 with an extensive game library, popular franchises, low retail price, and a \
+			 bold marketing campaign targeted toward adolescents and adults. Popular game \
+			 franchises include Gran Turismo, Resident Evil, and Final Fantasy.'
 	};
 </script>
 
@@ -21,7 +20,7 @@
 		<p class="max-w-3xl">{information.description}</p>
 	</div>
 	<div class="col-span-12 lg:col-span-6 max-h-72 lg:max-h-none">
-		<img src="images/GCN.png" alt="Nintendo GameCube" class="h-full lg:h-auto" />
+		<img src="images/PS1.png" alt="Sony Playstation" class="h-full lg:h-auto" />
 	</div>
 	<div class="col-span-12">
 		<dl class="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12 sm:gap-y-16">
