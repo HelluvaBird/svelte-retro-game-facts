@@ -3,7 +3,7 @@
 
 	$: switch (title) {
 		case '/':
-			title = 'Dashboard';
+			title = 'Retro Game Facts';
 			break;
 		case '/nes':
 			title = 'Nintendo Entertainment System';
